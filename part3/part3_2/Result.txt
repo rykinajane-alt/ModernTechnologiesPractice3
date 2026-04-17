@@ -1,0 +1,26 @@
+C:\Users\242823\.jdks\ms-21.0.10\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\lib\idea_rt.jar=53344:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\242823\IdeaProjects\ModernTechnologiesPractice3\out\production\ModernTechnologiesPractice3 part3.part3_2.BankAccountDemo
+Банковская система инициализирована
+Банк: Java Bank
+BankAccount{RU-123, owner=Ivan Petrov, balance=*****}
+Снятие (неверный PIN): false
+Состояние после 1-й неудачной попытки:
+BankAccount{RU-123, owner=Ivan Petrov, balance=*****}
+Снятие (неверный PIN): false
+Состояние после 2-й неудачной попытки:
+BankAccount{RU-123, owner=Ivan Petrov, balance=*****}
+Снятие (неверный PIN): false
+Состояние после 3-й неудачной попытки (блокировка):
+BankAccount{RU-123, owner=Ivan Petrov, balance=*****} [ЗАБЛОКИРОВАН]
+Снятие (верный PIN, но счёт заблокирован): false
+BankAccount{RU-123, owner=Ivan Petrov, balance=*****} [ЗАБЛОКИРОВАН]
+
+=== Демонстрация успешной операции ===
+BankAccount{RU-456, owner=Petr Ivanov, balance=50000,00}
+Снятие (верный PIN, сумма 3000): true
+BankAccount{RU-456, owner=Petr Ivanov, balance=47000,00}
+Пополнение (10000): true
+BankAccount{RU-456, owner=Petr Ivanov, balance=57000,00}
+Пополнение (-500): false
+BankAccount{RU-456, owner=Petr Ivanov, balance=57000,00}
+
+Process finished with exit code 0

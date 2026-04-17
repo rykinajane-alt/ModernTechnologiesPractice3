@@ -1,0 +1,22 @@
+C:\Users\242823\.jdks\ms-21.0.10\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\lib\idea_rt.jar=53503:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\242823\IdeaProjects\ModernTechnologiesPractice3\out\production\ModernTechnologiesPractice3 part4.part4_2.ShapeTest
+=== Все фигуры ===
+Рисую красный круг с радиусом 5.0
+  Circle[цвет=красный, S=78,54, P=31,42]
+Рисую синий прямоугольник 4,0 x 6,0
+  Rectangle[цвет=синий, S=24,00, P=20,00]
+Рисую зелёный квадрат 5,0 x 5,0
+  Square[цвет=зелёный, S=25,00, P=20,00]
+Рисую жёлтый круг с радиусом 3.0
+  Circle[цвет=жёлтый, S=28,27, P=18,85]
+
+=== Сортировка по площади ===
+Rectangle[цвет=синий, S=24,00, P=20,00]
+Square[цвет=зелёный, S=25,00, P=20,00]
+Circle[цвет=жёлтый, S=28,27, P=18,85]
+Circle[цвет=красный, S=78,54, P=31,42]
+
+=== Только круги ===
+Круг через toString: Circle[цвет=жёлтый, S=28,27, P=18,85]
+Круг через toString: Circle[цвет=красный, S=78,54, P=31,42]
+
+Process finished with exit code 0

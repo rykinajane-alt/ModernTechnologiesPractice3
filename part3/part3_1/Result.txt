@@ -1,0 +1,11 @@
+C:\Users\242823\.jdks\ms-21.0.10\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\lib\idea_rt.jar=53256:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\242823\IdeaProjects\ModernTechnologiesPractice3\out\production\ModernTechnologiesPractice3 part3.part3_1.demo.VehicleDemo
+Car | Toyota Camry (2020), fuel=60% | fuel for 500 km: 47,50
+Toyota Camry: beep-beep!
+Car | Lada Vesta (2021), fuel=50% | fuel for 500 km: 40,00
+Lada Vesta: beep-beep!
+Truck | Kamaz 5490 (2019), fuel=70% | fuel for 500 km: 280,00
+ElectricCar | Tesla Model 3 (2022), fuel=0% | fuel for 500 km: 0,00
+Tesla Model 3: beep-beep!
+  Электрозапас хода: 440,0 км
+
+Process finished with exit code 0

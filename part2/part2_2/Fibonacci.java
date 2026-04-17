@@ -6,21 +6,55 @@ public class Fibonacci {
         // TODO: реализуйте while-вариант.
         // Подсказка: базовые случаи n=0 и n=1 обработайте отдельно.
         // ▼ ВАШ КОД ЗДЕСЬ ▼
-        return -1;
+        if (n <= 0) return 0;
+        if (n == 1) return 1;
+
+        long prev = 0;  // F(0)
+        long curr = 1;  // F(1)
+        int count = 1;
+
+        while (count < n) {
+            long next = prev + curr;
+            prev = curr;
+            curr = next;
+            count++;
+        }
+        return curr;
         // ▲ КОНЕЦ ВАШЕГО КОДА ▲
     }
 
     public static long fibFor(int n) {
         // TODO: реализуйте for-вариант.
         // ▼ ВАШ КОД ЗДЕСЬ ▼
-        return -1;
+        if (n <= 0) return 0;
+        if (n == 1) return 1;
+
+        long prev = 0;  // F(0)
+        long curr = 1;  // F(1)
+
+        for (int i = 2; i <= n; i++) {
+            long next = prev + curr;
+            prev = curr;
+            curr = next;
+        }
+        return curr;
         // ▲ КОНЕЦ ВАШЕГО КОДА ▲
     }
 
     public static long firstGreaterThan(long threshold) {
         // TODO: найдите первое число Фибоначчи > threshold.
         // ▼ ВАШ КОД ЗДЕСЬ ▼
-        return -1;
+        if (threshold < 0) return 0;
+
+        long prev = 0;  // F(0)
+        long curr = 1;  // F(1)
+
+        while (curr <= threshold) {
+            long next = prev + curr;
+            prev = curr;
+            curr = next;
+        }
+        return curr;
         // ▲ КОНЕЦ ВАШЕГО КОДА ▲
     }
 

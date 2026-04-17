@@ -1,0 +1,13 @@
+C:\Users\242823\.jdks\ms-21.0.10\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\lib\idea_rt.jar=52947:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\242823\IdeaProjects\ModernTechnologiesPractice3\out\production\ModernTechnologiesPractice3 part1.part1_1.NumberClassifier
+Group: ПИ4-2в
+Sequence number: 12
+Date: 2026-04-17
+-5 -> отрицательное
+0 -> ноль
+7 -> однозначное
+42 -> двузначное
+100 -> трёхзначное
+1000 -> большое
+-999 -> отрицательное
+
+Process finished with exit code 0

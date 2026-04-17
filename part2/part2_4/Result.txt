@@ -1,0 +1,11 @@
+C:\Users\242823\.jdks\ms-21.0.10\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\lib\idea_rt.jar=53115:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.0.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\242823\IdeaProjects\ModernTechnologiesPractice3\out\production\ModernTechnologiesPractice3 part2.part2_4.LoopControl
+--- Первое простое > 100 ---
+Первое простое > 100: 101
+
+--- Нечётные, не кратные 3 (от 1 до 20) ---
+1 5 7 11 13 17 19
+
+--- Поиск в матрице ---
+Число 5 найдено на позиции [1][1]
+
+Process finished with exit code 0
